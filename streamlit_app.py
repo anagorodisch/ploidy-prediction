@@ -3,7 +3,7 @@ import pandas as pd
 import xgboost as xgb
 
 model = xgb.Booster()
-model.load_model('/workspaces/ploidy-prediction/necessary_files/checkpoints.json')
+model.load_model('necessary_files/checkpoints.json')
 
 # Título de la aplicación
 st.title("PREDICCIÓN DE PLOIDÍA")
